@@ -155,7 +155,8 @@ pipeline_args = [
       '--region','us-east1',
       '--service_account_email', 'vertexai-explore@tiger-mle.iam.gserviceaccount.com',
       '--staging_location','gs://beampipeline/staging',
-      '--experiment','use_runner_v2'
+      '--experiment','use_runner_v2',
+      '--experiment','use_unsupported_python_version'
 ]
    
 df=pd.read_csv('gs://beampipeline/data/Telco-Customer-Churn.csv')
