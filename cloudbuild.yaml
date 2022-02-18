@@ -9,5 +9,3 @@ steps:
     entrypoint: 'python'
     args: ['beam_dataflowrunner_churn.py']
     id: 'compile'
-    options:
-        logging: CLOUD_LOGGING_ONLY
