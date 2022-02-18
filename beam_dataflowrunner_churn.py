@@ -154,9 +154,6 @@ pipeline_args = [
       '--job_name', JOB_NAME,
       '--region','us-east1',
       '--service_account_email', 'vertexai-explore@tiger-mle.iam.gserviceaccount.com',
-      '--extra_package','/home/jupyter/packages/pandas-1.3.4-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl',
-      '--extra_package','/home/jupyter/packages/scikit_learn-1.0.1-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl',
-      '--extra_package','/home/jupyter/packages/numpy-1.21.4-cp37-cp37m-manylinux_2_12_x86_64.manylinux2010_x86_64.whl',
       '--staging_location','gs://beampipeline/staging',
       '--experiment','use_runner_v2'
 ]
