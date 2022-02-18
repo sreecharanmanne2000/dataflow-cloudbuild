@@ -1,0 +1,11 @@
+steps:
+  # Install dependencies
+  - name: python
+    entrypoint: pip
+    args: ["install", "-r", "requirements.txt", "--user"]
+
+  # Compile pipeline
+  - name: 'python'
+    entrypoint: 'python'
+    args: ['beam_dataflowrunner_churn.py']
+    id: 'compile'
