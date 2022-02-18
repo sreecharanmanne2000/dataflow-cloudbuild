@@ -10,4 +10,4 @@ steps:
     args: ['beam_dataflowrunner_churn.py']
     id: 'compile'
     options:
-    logging: CLOUD_LOGGING_ONLY
+        logging: CLOUD_LOGGING_ONLY
