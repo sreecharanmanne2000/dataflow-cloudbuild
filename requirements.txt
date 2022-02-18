@@ -1,0 +1,7 @@
+apache_beam
+fsspec
+gcsfs
+scikit_learn
+pandas
+apache-beam[gcp] 
+cloudstorage
