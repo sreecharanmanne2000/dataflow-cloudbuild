@@ -156,7 +156,7 @@ pipeline_args = [
       '--service_account_email', 'vertexai-explore@tiger-mle.iam.gserviceaccount.com',
       '--staging_location','gs://beampipeline/staging',
       '--experiment','use_runner_v2',
-      '--sdk_container_image','gcr.io/tiger-mle/cloudbuild-dataflow',
+      '--sdk_container_image','gcr.io/tiger-mle/dataflow-cloudbuild',
       '--experiment','use_unsupported_python_version'
 ]
    
