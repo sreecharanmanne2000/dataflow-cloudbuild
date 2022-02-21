@@ -34,7 +34,7 @@ import cloudstorage as gcs
 
 PROJ_NAME = 'tiger-mle'
 RUNNER = 'DataflowRunner'
-JOB_NAME = 'test1'
+JOB_NAME = 'test11'
 TEMP_LOCATION = 'gs://beampipeline/temp'
 OUTPUT_PATH = 'gs://beampipeline/output'
 
